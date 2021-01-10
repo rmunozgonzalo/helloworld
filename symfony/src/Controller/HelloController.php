@@ -13,7 +13,7 @@ class HelloController
     public function hello(): Response
     {
         return new Response(
-            '<html><body>Hello World</body></html>'
+            '<html><body>Hello World!</body></html>'
         );
     }
 }
